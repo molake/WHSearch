@@ -1,0 +1,16 @@
+PODS:
+  - WHSearch (0.1.0)
+
+DEPENDENCIES:
+  - WHSearch (from `../`)
+
+EXTERNAL SOURCES:
+  WHSearch:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WHSearch: 89d1319019ccd5db2882b8e01249f1b252fa2cb7
+
+PODFILE CHECKSUM: 2bd97913ba677d7d4317e7116a4b210fde851e37
+
+COCOAPODS: 1.8.4

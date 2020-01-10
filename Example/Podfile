@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WHSearch_Example' do
+  pod 'WHSearch', :path => '../'
+
+  target 'WHSearch_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
