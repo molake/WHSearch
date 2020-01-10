@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'WHSearch'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of WHSearch.'
+  s.summary          = 'just for test'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = 'A long description of WHSearch. For test'
+  s.description      = 'just for WHSearch test'
 
   s.homepage         = 'https://github.com/remember17/WHSearch'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
