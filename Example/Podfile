@@ -1,7 +1,11 @@
 use_frameworks!
 
+source 'https://github.com/remember17/WHPodSpec.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
 target 'WHSearch_Example' do
   pod 'WHSearch', :path => '../'
+  pod 'WHUI', '~> 0.5.1'
 
   target 'WHSearch_Tests' do
     inherit! :search_paths

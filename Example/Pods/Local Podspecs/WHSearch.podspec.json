@@ -1,22 +1,29 @@
 {
   "name": "WHSearch",
-  "version": "0.1.0",
-  "summary": "A short description of WHSearch.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/503007958@qq.com/WHSearch",
+  "version": "0.3.0",
+  "summary": "just for test",
+  "description": "just for WHSearch test",
+  "homepage": "https://github.com/remember17/WHSearch",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "503007958@qq.com": "hao.d.wu@accenture.com"
+    "503007958@qq.com": "503007958@qq.com"
   },
   "source": {
-    "git": "https://github.com/503007958@qq.com/WHSearch.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/remember17/WHSearch.git",
+    "tag": "0.3.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "11.0"
   },
-  "source_files": "WHSearch/Classes/**/*"
+  "source_files": "WHSearch/Classes/**/*",
+  "swift_versions": "5.1.2",
+  "dependencies": {
+    "WHUI": [
+      "~> 0.5.1"
+    ]
+  },
+  "swift_version": "5.1.2"
 }
