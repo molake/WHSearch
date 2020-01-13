@@ -10,6 +10,7 @@ import WHUI
 
 public class SearchController: UIViewController {
 
+    // test
     lazy var testView: WHView = {
         let test = WHView()
         test.backgroundColor = UIColor.blue
@@ -20,6 +21,8 @@ public class SearchController: UIViewController {
     
     override public func viewDidLoad() {
         super.viewDidLoad()
+        // just for some test
+        // hahah
         view.backgroundColor = UIColor.white
         view.addSubview(testView)
     }

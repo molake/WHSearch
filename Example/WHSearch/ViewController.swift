@@ -13,7 +13,10 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        let searchView = SearchTestView()
+        searchView.backgroundColor = UIColor.green
+        searchView.frame = CGRect(x: 100, y: 300, width: 100, height: 100)
+        view.addSubview(searchView)
     }
 
     override func didReceiveMemoryWarning() {

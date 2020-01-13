@@ -1,6 +1,6 @@
 {
   "name": "WHSearch",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "summary": "just for test",
   "description": "just for WHSearch test",
   "homepage": "https://github.com/remember17/WHSearch",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/remember17/WHSearch.git",
-    "tag": "0.5.0"
+    "tag": "0.5.1"
   },
   "platforms": {
     "ios": "11.0"
