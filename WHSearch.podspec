@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WHSearch'
-  s.version          = '0.2.1'
+  s.version          = '0.3.0'
   s.summary          = 'just for test'
 
 # This description is used to generate tags and improve search results.
@@ -36,5 +36,5 @@ Pod::Spec.new do |s|
   s.swift_version = '5.1.2'
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'WHUI'
+
 end
