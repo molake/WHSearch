@@ -7,6 +7,6 @@
 
 import UIKit
 
-class SearchViewModel: NSObject {
+public class SearchViewModel: NSObject {
     
 }
