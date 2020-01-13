@@ -18,6 +18,13 @@ public class SearchController: UIViewController {
         return test
     }()
 
+    // molake add button
+    lazy var bottomButton: WHButton = {
+        let test = WHButton()
+        test.backgroundColor = UIColor.blue
+        test.frame = CGRect(x: 100, y: 400, width: 100, height: 100)
+        return test
+    }()
     
     override public func viewDidLoad() {
         super.viewDidLoad()
@@ -25,5 +32,7 @@ public class SearchController: UIViewController {
         // hahah
         view.backgroundColor = UIColor.white
         view.addSubview(testView)
+        // add bottom button
+        view.addSubview(bottomButton)
     }
 }
