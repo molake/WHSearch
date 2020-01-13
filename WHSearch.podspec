@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WHSearch'
-  s.version          = '0.5.0'
+  s.version          = '0.5.1'
   s.summary          = 'just for test'
 
 # This description is used to generate tags and improve search results.
